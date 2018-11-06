@@ -7,17 +7,10 @@ public class Order {
     private BreadType breadtype;
     private String sandwichName;
     private BigDecimal sandwichPrice;
-    private String telefoonnummer;
+    private String tel;
 
-    public Order(){
+    private Order(){
 
-    }
-
-    public Order(String breadType, String sandwichName, BigDecimal sandwichPrice, String telefoonnummer){
-        this.setBreadtype(breadType);
-        this.setSandwichName(sandwichName);
-        this.setSandwichPrice(sandwichPrice);
-        this.setTelefoonnummer(telefoonnummer);
     }
 
     public String getSandwichName() {
@@ -37,11 +30,11 @@ public class Order {
     }
 
     public String getTelefoonnummer() {
-        return telefoonnummer;
+        return tel;
     }
 
     public void setTelefoonnummer(String telefoonnummer) {
-        this.telefoonnummer = telefoonnummer;
+        this.tel = telefoonnummer;
     }
 
     public BreadType getBreadtype(){
@@ -64,5 +57,46 @@ public class Order {
             }
         }
         return false;
+    }
+    
+    public static class OrderBuilder{
+        private BreadType breadtype;
+        private String sandwichName;
+        private BigDecimal sandwichPrice;
+        private String tel;
+        
+        public OrderBuilder withBreadtype(String breadtype) {
+            String breadtypeUpper = breadtype.toUpperCase();
+            for(BreadType t : BreadType.class.getEnumConstants()){
+                if(t.name().equals(breadtypeUpper)){
+
+                   this.breadtype = BreadType.valueOf(breadtypeUpper);
+                    return this;
+                }
+            }
+            throw new ModelException("Invalid breadType");
+        }
+
+        public OrderBuilder withSandwichName(String sandwichName) {
+            this.sandwichName = sandwichName; return this;
+        }
+
+        public OrderBuilder withSandwichPrice(BigDecimal sandwichPrice) {
+            this.sandwichPrice = sandwichPrice; return this;
+        }
+
+        public OrderBuilder withTel(String tel) {
+            this.tel = tel; return this;
+        }
+
+        public Order build(){
+            Order order = new Order();
+            order.breadtype = this.breadtype;
+            order.sandwichName = this.sandwichName;
+            order.sandwichPrice = this.sandwichPrice;
+            order.tel = this.tel;
+            return order;
+        }
+        
     }
 }
