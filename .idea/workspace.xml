@@ -735,7 +735,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="272" />
+    <option name="x" value="782" />
+    <option name="y" value="37" />
     <option name="width" value="1275" />
     <option name="height" value="1103" />
   </component>
@@ -826,7 +827,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541696109110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541696524707" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gs-rest-service/complete" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1046,15 +1047,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541502250266</updated>
-      <workItem from="1541502253900" duration="19237000" />
+      <workItem from="1541502253900" duration="19532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19237000" />
+    <option name="totallyTimeSpent" value="19532000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="60" width="1020" height="882" extended-state="0" />
+    <frame x="626" y="30" width="1020" height="882" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
