@@ -13,12 +13,14 @@ import java.util.concurrent.atomic.AtomicLong;
 @RestController
 public class SandwichController {
 
-    //Werkt nog niet -> Omzetten van price naar BigDecimal ? 
+    //run & go to localhost:8080/sandwich?name=cheese&price=3.2&ingredients=cheese, lettuce, eggs
+        //-> shows json of created sandwich   {"name":"cheese","price":3.20,"ingredients":"cheese, lettuce, eggs"}
    @RequestMapping("/sandwich")
-    public Sandwich sandwich(@RequestParam(value="name")String name, @RequestParam(value="price") BigDecimal price, @RequestParam(value="ingredients")String ingredients){
-        return new Sandwich.SandwichBuilder(UUID.randomUUID())
+    public Sandwich sandwich(@RequestParam(value="name")String name, @RequestParam(value="price") String price, @RequestParam(value="ingredients")String ingredients){
+       BigDecimal priceDecimal = new BigDecimal(price).setScale(2,BigDecimal.ROUND_HALF_UP);
+       return new Sandwich.SandwichBuilder(UUID.randomUUID())
                 .withName(name)
-                .withPrice(price)
+                .withPrice(priceDecimal)
                 .withIngredients(ingredients)
                 .build();
     }
