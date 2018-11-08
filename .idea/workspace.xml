@@ -6,27 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8fd771f-c568-434d-950c-8df9379608bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/GameRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/SandwichController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/SandwichController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/model/Sandwich$SandwichBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/model/Sandwich$SandwichBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/gs-spring-boot-0.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/application/SandwichController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/application/SandwichController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/model/Sandwich$SandwichBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/model/Sandwich$SandwichBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/SandwichController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/SandwichController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Sandwich.java" afterDir="false" />
-    </list>
+    <list default="true" id="b8fd771f-c568-434d-950c-8df9379608bd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -755,8 +735,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="692" />
-    <option name="y" value="73" />
+    <option name="x" value="-17" />
+    <option name="y" value="75" />
     <option name="width" value="1275" />
     <option name="height" value="1103" />
   </component>
@@ -847,7 +827,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541695261835" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541695264041" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gs-rest-service/complete" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1067,15 +1047,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541502250266</updated>
-      <workItem from="1541502253900" duration="18638000" />
+      <workItem from="1541502253900" duration="19237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18638000" />
+    <option name="totallyTimeSpent" value="19237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="59" width="1020" height="882" extended-state="0" />
+    <frame x="-13" y="60" width="1020" height="882" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
