@@ -9,6 +9,7 @@
 <jsp:include page="head.jsp">
     <jsp:param name="title" value="Home"></jsp:param>
 </jsp:include>
+<jsp:include page="header.jsp"></jsp:include>
 <jsp:include page="footer.jsp">
 </jsp:include>
 </body>
