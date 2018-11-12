@@ -19,7 +19,14 @@ public class SandwichController {
                 .build();
     }*/
 
-   
+   /*
+   @RequestMapping(value = "/")
+   public String index(){
+       return "index.jsp";
+   }
+   */
+
+
     @RequestMapping(value="/test")
     public String home(){
         return "Test ";
